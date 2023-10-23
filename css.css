@@ -1,0 +1,52 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the side navigation container */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0B0E5A;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo img {
+  margin: 20px 0;
+  max-width: 100px;
+  height: auto;
+}
+
+/* Style the navigation links */
+.sidenav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.sidenav ul li {
+  margin: 10px 0;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style the content container */
+.content {
+  margin-left: 250px; /* Set this to the width of the side navigation */
+  padding: 20px;
+}
+
+/* Additional styling for your content can be added here */
